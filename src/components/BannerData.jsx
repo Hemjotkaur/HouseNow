@@ -51,27 +51,35 @@ const BannerData = ({ Data }) => {
                </div>
             </tr>
           </thead> */}
-          <div className="w-[1140px] h-[1px] bg-[#F3F3F3]">
+          <div className="w-[100%] h-[1px] bg-[#F3F3F3]">
 
           </div>
           <tbody className="mt-[22px]">
             {Data.map((item, index) => (
               <tr
                 key={item.id}
-                className="w-[1075px] h-[181px]"
+                className="w-[1075px] h-[181px] flex mt-[22px] mb-[42px]"
               >
-                <td className="text-[14px] font-normal font-inter text-[#222B45]">{index + 1}.</td>
+                <td className="text-[14px] font-normal font-inter ">{index + 1}.</td>
                 <td className="">
                   <img
                     src={item.image}
                     alt="banner"
-                    className="w-[456px] h-[181px] object-cover rounded-[10px]"
+                    className="w-[456px] h-[181px] object-cover rounded-[10px] ml-[67px]"
                   />
                 </td>
-                <td className="pr-[148px] py-4">{item.name}</td>
-                <td className="pr-[80px] py-4">{item.duration}</td>
-                <td className="pr-[60px] py-4">{item.action}</td>
+                <td className="ml-[41px] text-[14px] text-[#222B45] w-[135px] h-[17px]">{item.name}</td>
+                <td className="ml-[75px] w-[118px] h-[34px]">{item.duration}</td>
+                <td className="pl-[59px]">
+                    <div>
+                        <img src="" alt="" />
+                        <img src="" alt="" />
+                        <img src="" alt="" />
+                    </div>
+                
+                </td>
               </tr>
+              
             ))}
           </tbody>
         </table>

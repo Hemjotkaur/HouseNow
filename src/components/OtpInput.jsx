@@ -4,7 +4,9 @@ import { useState,useRef } from 'react';
 const OtpInput = ({onOtpSubmit = () => {}}) => {
 
     const [otp, setOtp] = useState(["","","","","",""]);
-    const inputRefs = useRef([]);
+    const inputRefs = useRef([]
+
+    );
     // console.log(inputRefs)
 
     useEffect(()=> {
@@ -32,8 +34,14 @@ const OtpInput = ({onOtpSubmit = () => {}}) => {
             inputRefs.current[index+1].focus();
         }
     };
-    const handleClick =() => {};
-    const handleKeyDown =() => {};
+    const handleClick =(index) => {
+        
+    };
+    const handleKeyDown =(e,index) => {
+        if(e.key === "Backspace" && !otp[index] && index>0 &&inputRefs.current[index - 1]){
+              inputRefs.current[index-1].focus();
+        }
+    };
 
   return <div className='flex gap-4 mt-[40px] '>
     {

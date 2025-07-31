@@ -8,7 +8,7 @@ import UserProfile from './components/UserProfile'
 import Biometric from './components/Biometric'
 import BannerManagement from './components/BannerManagement'
 import Data from './components/Data'
-import BannerTable from './components/Banner'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,7 +21,7 @@ function App() {
         <Route path="/verify" element={<Verification/>} />
         <Route path="/userprofile" element={<UserProfile/>} />
         <Route path="/biometric" element={<Biometric/>} />
-        <Route path="/banner" element={<BannerTable/>} />
+        <Route path="/banner" element={<BannerManagement Data={Data}/>} />
       </Routes>
    </>
   )
