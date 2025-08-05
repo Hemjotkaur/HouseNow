@@ -1,0 +1,49 @@
+.navbar{
+    background-color: #2880DA;
+    width: 1440px;
+    height: 72px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav_img{
+    width: 20px;
+    height: 38px;
+}
+.nav_logo{
+    display: flex;
+    gap: 10.88px;
+    justify-items: center;
+    align-items: center;
+}
+.nav_text{
+    color: white;
+    font-size: 15px;
+    
+}
+.nav_items{
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    gap: 49px;
+     font-family: 'Open Sans', sans-serif;
+}
+.talk_btn{
+    background-color: black;
+    color: white;
+    width: 180px;
+    height: 41px;
+    border-radius: 4px;
+    font-weight: 700;
+    font:bold;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.talk_img{
+    width: 17px;
+    height: 19px;
+}

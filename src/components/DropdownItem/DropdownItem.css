@@ -1,0 +1,76 @@
+.dropdown-item{
+   
+    cursor: pointer;
+    line-height: 28px;
+
+}
+.first-item-value{
+    font-size: 13px;
+    font-weight: 400;
+    color: #5F5F5F;
+    font-family: 'Open Sans', sans-serif;
+    padding:6px 79px 5px 20px;
+
+}
+.line{
+    width: 173px;
+    height: 1px;
+    background-color: #E4E4E4;
+}
+.second-item-value{
+    font-size: 13px;
+    font-weight: 400;
+    color: #5F5F5F;
+    font-family: 'Open Sans', sans-serif;
+    padding:6px 26px 9px 20px;
+}
+.third-item-value{
+    font-size: 13px;
+    font-weight: 400;
+    color: #5F5F5F;
+    font-family: 'Open Sans', sans-serif;
+    padding:9px 62px 6px 20px;
+}
+.fourth-item-value{
+    font-size: 13px;
+    font-weight: 400;
+    color: #5F5F5F;
+    font-family: 'Open Sans', sans-serif;
+    padding:11px 106px 9px 20px;
+}
+.fifth-item-value{
+    font-size: 13px;
+    font-weight: 400;
+    color: #5F5F5F;
+    font-family: 'Open Sans', sans-serif;
+    padding: 7px 94px 8px 20px;
+}
+.sixth-item-value{
+    font-size: 13px;
+    font-weight: 400;
+    color: #5F5F5F;
+    font-family: 'Open Sans', sans-serif;
+    padding: 8px 30px 9px 20px;
+}
+.seventh-item-value{
+    font-size: 13px;
+    font-weight: 400;
+    color: #5F5F5F;
+    font-family: 'Open Sans', sans-serif;
+    padding: 8px 66px 8px 20px;
+}
+.eight-item-value{
+    font-size: 13px;
+    font-weight: 400;
+    color: #5F5F5F;
+    font-family: 'Open Sans', sans-serif;
+    padding: 7px 79px 6px 20px;
+}
+.nine-item-value{
+    font-size: 13px;
+    font-weight: 400;
+    color: #5F5F5F;
+    font-family: 'Open Sans', sans-serif;
+    padding: 7px 76px 3px 20px;
+    /* line-height: 28px; */
+}
