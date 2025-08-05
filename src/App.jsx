@@ -6,8 +6,7 @@ import Signup from './components/Signup'
 import Verification from './components/Verification'
 import UserProfile from './components/UserProfile'
 import Biometric from './components/Biometric'
-import BannerManagement from './components/BannerManagement'
-import Data from './components/Data'
+import Home from './components/Home'
 
 
 function App() {
@@ -21,7 +20,7 @@ function App() {
         <Route path="/verify" element={<Verification/>} />
         <Route path="/userprofile" element={<UserProfile/>} />
         <Route path="/biometric" element={<Biometric/>} />
-        <Route path="/banner" element={<BannerManagement Data={Data}/>} />
+        <Route path="/home" element={<Home/>} />
       </Routes>
    </>
   )

@@ -1,0 +1,118 @@
+/* .platform_section{
+    padding: 62px 127px 95px 121px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 31px;
+}
+.heading1{
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+.banner_heading1{
+    color: #3B3A40;
+    font-size: 36px;
+    font-weight: 700;
+    font: bold;
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.lower_content{
+    display: flex;
+    gap: 162px;
+}
+.content_details1{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 17px;
+    color: #64626A;
+    line-height: 25px;
+    width: 466px;
+    height: 258px;
+}
+.main_img img{
+    width: 914px;
+    height: 610px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 127px;
+    height: 41px;
+    background-color: #2880DA;
+    color: white;
+    font-weight: 700;
+    font: bold;
+    font-size: 15px;
+    border-radius: 4px;
+    font-family: 'Mulish', sans-serif;
+    margin-top: 61px;
+    
+} */
+
+.about_section{
+    padding: 62px 127px 95px 121px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 31px;
+}
+.title_heading{
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+.banner_title{
+     color: #3B3A40;
+    font-size: 36px;
+    font-weight: 700;
+    font: bold;
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.content_text{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 17px;
+    color: #64626A;
+    line-height: 25px;
+    width: 466px;
+    height: 258px;
+}
+.main_img img{
+    width: 914px;
+    height: 610px;
+}
+.contact_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 127px;
+    height: 41px;
+    background-color: #2880DA;
+    color: white;
+    font-weight: 700;
+    font: bold;
+    font-size: 15px;
+    border-radius: 4px;
+    font-family: 'Mulish', sans-serif;
+    margin-top: 61px;
+    gap: 13px;
+    
+} 
+.contact_btn span img{
+    width: 10px;
+    height: 10px;
+}

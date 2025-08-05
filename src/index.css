@@ -8,3 +8,6 @@
 .no-spinner {
   -moz-appearance: textfield;
 }
+body{
+  overflow-x: hidden;
+}
