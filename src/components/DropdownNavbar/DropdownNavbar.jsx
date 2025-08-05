@@ -1,6 +1,7 @@
 import React from 'react'
 import './DropdownNavbar.css'
 import btnimg from "../../assets/Fill 25.png";
+import houselogo from "../../assets/HouseNow.png";
 import Dropdown from '../Dropdown/Dropdown';
 import userImage from "../../assets/user.png";
 import DropdownItem from '../DropdownItem/DropdownItem';
@@ -21,7 +22,8 @@ const Navbar = () => {
             className='nav_img'
             src={btnimg} 
             alt="" />
-            <p className='nav_text'>HousNow</p>
+            <img src={houselogo} alt="" className='houselogo'/>
+            {/* <p className='nav_text'>HousNow</p> */}
       </div>
       <div className="nav_items">
             <div>
@@ -36,17 +38,6 @@ const Navbar = () => {
       </div>
      <Dropdown 
         user={user}
-        // content={
-        //     <>
-        //         {
-        //             items.map((item) => (
-        //                 <DropdownItem key={item}>
-        //                     {`${item}`}
-        //                 </DropdownItem>
-        //             ))
-        //         }
-        //     </>
-        // }
      />
     </div>
   )

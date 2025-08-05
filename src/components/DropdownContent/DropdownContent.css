@@ -6,6 +6,7 @@
     height: 400px;
     display: flex;
     flex-direction: column;
+    z-index: 1;
     /* align-items: center; */
     /* padding: 1rem; */
     background-color: white;

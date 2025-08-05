@@ -1,0 +1,130 @@
+.hero-section{
+    padding: 40px 100px 0px 93px;
+    position: relative;
+}
+.main-content{
+    background: url("../../assets/apart.png");
+    width: 1262px;
+    height: 406px;
+    padding: 59px 347px 71px 93px;
+      background-size: cover;        
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.hero-main-heading{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif; 
+    color: white;
+    line-height: 64.5px;
+}
+.hero-main-heading span{
+    font-size: 50px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif; 
+    color: white;
+    line-height: 64.5px;
+}
+.hero-title{
+    font-size: 27px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif; 
+    color: white;
+    line-height: 64.5px;
+    background-color: #2880DA99;
+    opacity: 60%;
+    width: 385px;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    margin-top: 12px;
+    margin-bottom: 29px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 163px;
+    height: 41px;
+    background-color: #2880DA;
+    color: white;
+    font-weight: 700;
+    font: bold;
+    font-size: 15px;
+    gap: 11.29px;
+}
+
+.links{
+    display: flex;
+    gap: 13px;
+    margin-top: 61.69px;
+}
+.search-btn{
+    width: 134.65px;
+    height: 49.1px;
+    border-radius: 4px;
+    padding: 15.9px 28.05px 15.9px 28.05px;
+    background-color: #2880DA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9.35px;
+    font-size: 14.96px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif; 
+    color: white;
+    line-height: 24.31px;
+
+}
+.search-btn span img{
+    width: 18.2px;
+    height: 18.2px;
+}
+.choice-box{
+    width: 229.09px;
+    height: 49.1px;
+    border-radius: 4px;
+    border: 0.94px solid #2880DA;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #2880DA;
+}
+.bedroom-box{
+    width: 229.09px;
+    height: 49.1px;
+    border-radius: 4px;
+    border: 0.94px solid #7C8893;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #7C8893;
+}
+.choice-box span ,.bedroom-box span{
+    width: 12.34px;
+    height: 4.84px;
+}
+.search-panel-box{
+    width: 1216px;
+    height: 115px;
+    border-radius: 4px;
+    background-color: white;
+    box-shadow: 10px 27px 33px 0px #CDCDCD7A;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 427px;
+    left: 115px;
+}
+
+option location-placeholder{
+    font-size: 14.96px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif; 
+    color: #2880DA;
+    line-height: 24.31px;
+    
+}
